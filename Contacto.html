@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Bienvenidos al SPA Zahara donde te cuidamos con amor">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="spa, belleza, cuidado de la piel, masajes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>SPA Zahara | Contacto</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">SPA Zahara</a></h1>
+                <ul>
+                    <li> <a href="index.html">Inicio</a></li>
+                    <li><a href="Empresa.html">Empresa</a></li>
+                    <li><a class="current" href="Contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+       
+        </div>
+    </header>
+
+    <!-- Contacto -->
+<section id="contact-form" class="py-3">
+    <div class="container">
+        <h1 class="l-heading">
+            <span class="text-primary">Contáctanos</span>
+        </h1>
+        <br>
+        <form action="procesar.php">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" placeholder="Ingrese su nombre" id="nombre">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Escribe tu email" id="email">
+            </div>
+
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            </div>
+            <button class="btn">Contactar</button>
+        </form>
+    </div>
+</section>
+
+<section id="contact-info" class="bg-dark">
+    <div class="container">
+        <div class="box">
+            <i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAABRklEQVR4nO3XMWrDMBSA4b9LryBwr9CtSw7QUWvOEOhQ2qm9QPZkKblGhozpCUq3QggEeoAcIJNVBC8QQmw/KY4kSgRvcJ5sfTzp2QT+6agkihgG+AHWwF0pGCeRFVUBK4F8SDj5rcqJmQIvEtMcKHOwTTPgFajl+h2YpNw+04JxqVFGgUmGMgGYi6NMBOZiqOpEN+0xI2DYECOZU/fZfV2VsS2VsX1XSrNNNgB0Fkp7ZmwgKAoVcoBtBCgIFdpNNjKnQsW0tj0D1IkaH7T2k/I9MwAeG2KguL+WtfavhPExyFfmBlgoHuZ6ioWsOTkG3UuCDCBkbW84OXKAWocGtATeOuIzJegZmANfDTGXOUlBm5a8z11Bm9IrVAO/JYG+gVtgVwrIAduSKuRKO0PuCiJThYaK79SD/NVpyvucn9P1HL9W2eMP/uKQNaba6QgAAAAASUVORK5CYII="></i>
+            <h3> Ubicación</h3>  
+            <p>Calle Desengaño 21, Madrid</p>      
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAACXBIWXMAAAsTAAALEwEAmpwYAAABfElEQVR4nO3XMUtWURgH8F9YgxqkEmgUkhLuTU3RUJJB9AUEA52DNrGhOWupJVycougD6ODiIARaYKC0BhokDoJFoUR248IVRPK958X7Pon4h2c+P+6555zn4ST15x7e4yPu+E85hVHsICvqB3qjIafxdg9ib80U0JDkC00eAMmKGonCPCyBZNjEpQjMpwRMhukIzIdETIb7jca8rgPzpdGYoaOEacN2Iua5gEwkQL6jKwLTg18lmDGBeVaCuRWJOYvVGpivuBAJuoHfNUBLaI8EjZds1xxaIl/w2RLQFM5Egc7jcwKoOQp0BWsloHl0RIGuFu1DLdDivlPWiRfF6VsrnpvKch0/S0D5wv14VNzU/9rSi1WBbieAyir/wsNVtbDXsHFI0G5P3V3VP7ReAegbBqoA9SUc+5TK57LK7qHZQ2LeqfimfrJv6EutP7irAbmJlToxjzUwrXia0KDl9SZqQr2Ml9g6AJJPrk2Ccw6DeIUFLONB5MzuWOQvBAtE+PJy930AAAAASUVORK5CYII="></i>
+            <h3> Teléfono</h3>  
+            <p>666555777</p>      
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbElEQVR4nO2WLUgEQRTHf36AghcEwwWD5YpBi8lkEMFg0mY0yhWTUaNBuGK0XbB4/cAsglywWAwWg6AgCCKHqE9G3sHz2F1nl3UMN394LDvvY347H4+FqKioAVcd6AS2ehLIuD6HgAYggayhc1qGb50CNfO+GwDmwMw3A5xYILd098C8GdsGPv4A5BPYMfPMAnfK8APIBT8Bi2Z8E3grEeYd2DL1F4BH9SUCOXsBVoxvDXgtAaYLrJu6S8Cz8acC9ZI3MpLzms9HZgKlLe9DARjfY/ArUNYB9IVxF2XO86J4AUnKFb3xgLnN2UpyAQlwBAxrfBW4yoi9BqY11jW+Q4/6uYEEaAKjmjMJnCfEXAJTGjMCHHvWLgQkQAsY07wJoG18bR1DY1o56hYGEuAMqGiu28ZVtd6WVjRGQgEJcKFnqV9V9UloING+tAcsq+0X7FWlAUmJFoEkrhAlnqHmP/zcd/rMMURFRQ2evgDYqWtugylm2wAAAABJRU5ErkJggg=="></i>
+            <h3> Email</h3>  
+            <p>spazahara@gmail.com</p>      
+        </div>
+    </div>
+</section>
+
+
+<footer id="main-footer">
+    <p>SPA Zahara &copy; 2024, Todos los derechos reservados</p>
+</footer>
+</body>
+</html>
